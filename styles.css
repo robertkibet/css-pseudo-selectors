@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+[data-section='first'] p::selection {
+  background-color: #191521;
+  color: #f5f5f5;
+}
+[data-section='second'] p::selection {
+  background-color: #c03d0a;
+  color: #f5f5f5;
+}
+[data-section='third'] p::selection {
+  background-color: #06b60f;
+  color: #f5f5f5;
+}
+
+[data-section='first'] p::-moz-selection {
+  background-color: #191521;
+  color: #f5f5f5;
+}
+[data-section='second'] p::-moz-selection {
+  background-color: #c03d0a;
+  color: #f5f5f5;
+}
+[data-section='third'] p::-moz-selection {
+  background-color: #06b60f;
+  color: #f5f5f5;
+}
